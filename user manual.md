@@ -39,18 +39,13 @@ preferred abbreviation: **pd**
 purpose: for defining data structures
 
 api:
-- **d**: shorthand for 'dictionary', wraps a pareto dictionary type around a JSON object.
+- **d**: shorthand for 'dictionary', creates a JSON object.
 
     example:
     ```
     const x = pd.d({ "A": true, "B": false })
     ```
-
-    the dictionary type is unmutable but provides an API to transform
-    - asyncMap
-    - map
-
-
+    
 
 ## pareto-core-lib
 
